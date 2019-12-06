@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historial>
+  <pedido>
+    <num_pedido>4415</num_pedido>
+    <fecha>31/10/17</fecha>
+    <hora>12:39</hora>
+    <producto>
+      <titulo>Animales fantásticos</titulo>
+      <formato>dvd</formato>
+      <precio>11.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <producto>
+      <titulo>Fast and Furious 8</titulo>
+      <formato>blueray</formato>
+      <precio>13.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <total_compra>25.98</total_compra>
+  </pedido>
+  <pedido>
+    <num_pedido>1700</num_pedido>
+    <fecha>31/10/17</fecha>
+    <hora>12:58</hora>
+    <producto>
+      <titulo>Titanic</titulo>
+      <formato>blueray</formato>
+      <precio>9.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <total_compra>9.99</total_compra>
+  </pedido>
+  <pedido>
+    <num_pedido>2523</num_pedido>
+    <fecha>31/10/17</fecha>
+    <hora>13:37</hora>
+    <producto>
+      <titulo>Fast and Furious 8</titulo>
+      <formato>dvd</formato>
+      <precio>11.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <producto>
+      <titulo>Fast and Furious 8</titulo>
+      <formato>blueray</formato>
+      <precio>13.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <total_compra>25.98</total_compra>
+  </pedido>
+  <pedido>
+    <num_pedido>2578</num_pedido>
+    <fecha>01/11/17</fecha>
+    <hora>13:09</hora>
+    <producto>
+      <titulo>Fast and Furious 8</titulo>
+      <formato>dvd</formato>
+      <precio>11.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <total_compra>11.99</total_compra>
+  </pedido>
+</historial>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset = "utf-8" />
+    <title>Registrarse - Bluediv</title>
+    <link rel='stylesheet' href="style.css" type="text/css" media="all" />
+    
+    <script>
+        function validar(){
+            if(document.registro.nombre.value.length == 0 ||document.registro.apellidos.value.length == 0 ||document.registro.email.value.length == 0 ||document.registro.usuario.value.length == 0 ||document.registro.password.value.length == 0 ||document.registro.password2.value.length == 0 || document.registro.direccion1.value.length == 0 ||document.registro.poblacion.value.length == 0 ||document.registro.provincia.value.length == 0 || document.registro.pais.value.length == 0 || document.registro.tipo_tarjeta.value.length == 0 || document.registro.tarjeta.value.length == 0 || document.registro.exp_tarjeta.value.length == 0){
+                alert("Rellene todos los campos obligatorios por favor");
+                return false;
+            }
+            if(document.registro.password.value.length < 6){
+                alert("La contraseña tiene que tener una longitud minima de 6 caracteres");
+                return false;
+            }
+            if( document.registro.tarjeta.value.length !=16){
+                alert("Introduzca dieciseis dígitos para el número de tarjeta");
+                return false;
+            }
+            if (document.registro.password.value != document.registro.password2.value){
+                alert("¡Error! Las cotraseñas no coinciden. Vuelva a escribirlas.");
+                return false;
+            }        
+            return true;
+        }
+    </script>
+    
+    <script type="text/javascript" src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function() {
+          var nivel;
+        
+          function devuelveNivel(esteInput, evento) {
+            var nivelBajo = 8,
+              nivelMedio = 12,
+              nivelAlto = 16,
+              numCaracteres = esteInput.val().length,
+              pass = esteInput.val(),
+              estaId = esteInput.attr("id"),
+              check_1 = "abcdefghijklmnñopqrstuvwxyzáéíóú ", /*Check de letras minúsculas*/
+              check_2 = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚ ", /*Check de letras mayúsculas*/
+              check_3 = "0123456789", /*Check de números*/
+              check_4 = "º!|@·#$~%€&¬()=?¿¡*<>",/*Check de caracteres no alfanuméricos*/
+              check_max_level = 0;
+              
+            /*Comprobamos si la contraseña tiene algún caracter del string check_1*/
+            for(i = 0; i < numCaracteres; i++){
+                for(j = 0; j < check_1.length; j++){
+                    if(pass.charAt(i) == check_1.charAt(j)){
+                        break;
+                    }
+                }
+                if (j != check_1.length){
+                    check_max_level++;
+                    break;
+                }
+            }
+
+            /*Comprobamos si la contraseña tiene algún caracter del string check_2*/
+            for(i = 0; i < numCaracteres; i++){
+                for(j = 0; j < check_2.length; j++){
+                    if(pass.charAt(i) == check_2.charAt(j)){
+                        break;
+                    }
+                }
+                if (j != check_2.length){
+                    check_max_level++;
+                    break;
+                }
+            }
+
+            /*Comprobamos si la contraseña tiene algún caracter del string check_3*/
+            for(i = 0; i < numCaracteres; i++){
+                for(j = 0; j < check_3.length; j++){
+                    if(pass.charAt(i) == check_3.charAt(j)){
+                        break;
+                    }
+                }
+                if (j != check_3.length){
+                    check_max_level++;
+                    break;
+                }
+            }
+
+            /*Comprobamos si la contraseña tiene algún caracter del string check_4*/
+            for(i = 0; i < numCaracteres; i++){
+                for(j = 0; j < check_4.length; j++){
+                    if(pass.charAt(i) == check_4.charAt(j)){
+                        break;
+                    }
+                }
+                if (j != check_4.length){
+                    check_max_level++;
+                    break;
+                }
+            }
+
+            evento.stopPropagation();
+            /*limpiarError();*/
+            if (estaId === "password") {
+              if (numCaracteres > 0 && numCaracteres < nivelBajo && check_max_level == 1) {
+                nivel = "bajo";
+                $("#color-rojo").css("display", "block");
+                $("#color-naranja").css("display", "none");
+                $("#color-amarillo").css("display", "none");
+                $("#color-verde").css("display", "none");                       
+              } 
+              else if (numCaracteres >= nivelBajo && numCaracteres < nivelMedio && check_max_level == 2) {
+                nivel = "medio";
+                $("#color-rojo").css("display", "block");
+                $("#color-naranja").css("display", "block");
+                $("#color-amarillo").css("display", "none");
+                $("#color-verde").css("display", "none");
+              } 
+              else if (numCaracteres >= nivelMedio && numCaracteres < nivelAlto && check_max_level == 3) {
+                nivel = "alto";
+                $("#color-rojo").css("display", "block");
+                $("#color-naranja").css("display", "block");
+                $("#color-amarillo").css("display", "block");
+                $("#color-verde").css("display", "none");
+              } 
+              else if (numCaracteres >= nivelAlto && check_max_level == 4) {
+                nivel = "muy alto";
+                $("#color-rojo").css("display", "block");
+                $("#color-naranja").css("display", "block");
+                $("#color-amarillo").css("display", "block");
+                $("#color-verde").css("display", "block");
+              }
+              if (numCaracteres === 0) {
+                nivel = "bajo";
+                $("#color-rojo").css("display", "block");
+                $("#color-naranja").css("display", "none");
+                $("#color-amarillo").css("display", "none");
+                $("#color-verde").css("display", "none");
+              }
+            }
+          }
+        
+          $(document).on('keyup', 'input', function(e) {
+            var nivelSeg = $("#nivelseguridad");
+            devuelveNivel($(this), e);
+            nivelSeg.html(nivel);
+          });
+    });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        
+        <nav id="menu-superior">
+            
+            <ul>
+		        <li>
+					<div id=div-mediana>
+						<img src='images/Black_mediana.png' alt='foto_mediana'/>
+					</div>
+					
+					<div id=div-entrar>
+						<a href='iniciar_sesion.html' class='ele-menu'>Entrar</a> <br/><br/>
+						<a href='registrarse.html' class='ele-menu'>Registrarse</a>
+					</div>
+                </li>
+				
+                <li id=logo>
+                    <a href=index.php>
+			            <img src='images/LOGO.png' id=imgLogo alt='foto_logo'/>
+		            </a>
+                </li>
+				
+		        <li>
+                    <div id=div-user-carro>
+                    
+                        <div class='user-carro'>
+                            <div>
+                                <a href='carrito.php'><img src='images/carro.png' alt='foto_carro'/></a>
+                            </div>
+
+                            <div>
+                                <a href='carrito.php' class='ele-menu'>Tu compra</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class='user-carro2'>
+			                <div>
+				                <a href='iniciar_sesion.html'><img src='images/user.png' alt='foto_usuario'/></a>
+			                </div>
+
+                            <div>
+                                <a href='iniciar_sesion.html' class='ele-menu'>Tu cuenta</a></div>
+                            </div>
+                    	</div>
+					</div>
+                </li>
+            </ul>
+			
+        </nav>
+        
+    </header>
+
+    <div id="div-Registrarse">
+        <div class="registro">
+        <form method="post" action="registro.php" name="registro">
+            <h2>REGISTRO</h2>
+            
+            <label>Nombre: *</label><br/>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre" maxlength="50" required/><br/>
+
+            <label>Apellidos: *</label><br/>
+            <input type="text" name="apellidos" placeholder="Introduce tus apellidos" maxlength="100" required/><br/>
+
+            <label>Sexo:</label><br/>
+            <input type="radio" name="sexo" value="H"/> Hombre
+            <input type="radio" name="sexo" value="M"/> Mujer <br/>
+
+            <label>Correo electrónico: *</label><br/>
+            <input type="email" name="email" placeholder="Introduce tu email" maxlength="80" required/><br/>
+
+            <label>Nombre de usuario (máx 10 caracteres): *</label><br/>
+            <input type="text" name="usuario" placeholder="Introduce tu usuario" maxlength="10" required/><br/>
+
+            <label for ="password"> Contraseña (mínimo 6 caracteres) *</label><br/>
+            <input id="password" type="password" name="password" placeholder="Introduce tu contraseña" maxlength="20" minlength="6" required/><br/>
+                <div class="nivelSeguridad">
+                    <span id="nivelseguridad">bajo</span>
+                    <div id="colores">
+                        <div id="color-rojo"></div>
+                        <div id="color-naranja"></div>
+                        <div id="color-amarillo"></div>
+                        <div id="color-verde"></div>
+                    </div>
+                </div>
+                <br><br>
+            <label>Introduzca de nuevo su contraseña: *</label><br/>
+            <input type="password" name="password2" placeholder="Introduce de nuevo tu contraseña" maxlength="20" minlength="6" required/><br/>
+            
+            <label>Teléfono móvil: </label><br/>
+            <input type="text" name="telefono" placeholder="Introduce tu teléfono móvil" maxlength="20"/><br/>
+
+            <label>Direccion postal: *</label><br/>
+            <input type="text" name="direccion1" placeholder="Calle y número" maxlength="100" required/><br/>
+            <input type="text" name="direccion2" placeholder="Apartamento, unidad, edificio, piso, etc." maxlength="100"/><br/>
+            
+            <label>Población: *</label><br/>
+            <input type="text" name="poblacion" placeholder="Introduce tu población" maxlength="50" required/><br/>
+
+            <label>Código Postal: </label><br/>
+            <input type="text" name="cp" placeholder="Introduce tu código postal" maxlength="50"/><br/>
+
+            <label>Provincia: *</label><br/>
+            <input type="text" name="provincia" placeholder="Introduce tu provincia" maxlength="50" required/><br/>
+
+            <label>Comunidad Autónoma: </label><br/>
+            <input type="text" name="ccaa" placeholder="Introduce tu comunidad autónoma" maxlength="50"/><br/>
+
+            <label>País: *</label><br/>
+            <input type="text" name="pais" placeholder="Introduce tu país" maxlength="50" required/><br/>
+
+            <label>Tipo de tarjeta de crédito: *</label><br/>
+            <input type="radio" name="tipo_tarjeta" value="Visa" checked="checked"/> Visa
+            <input type="radio" name="tipo_tarjeta" value="MasterCard"/> MasterCard <br/> 
+
+            <label>Nº de tarjeta de crédito: *</label><br/>
+            <input type="text" name="tarjeta" placeholder="Introduce el nº de tu tarjeta" maxlength="16" minlength="16" required/><br/>
+
+            <label>Fecha de expiración de la tarjeta de crédito: *</label><br/>
+            <input type="date" name="exp_tarjeta" required/>        
+
+
+            <br/>
+            <br/>
+            <div>
+                <input type="submit" name="submit" value="Registrarse" onclick = "return validar();">
+            </div>
+        </form>
+        </div>
+    </div>
+	
+	<footer>
+	
+        <ul>
+            <li>Envío seguro 3-5 días</li>
+            <li>|</li>
+            <li>Bluediv 2017</li>
+            <li>|</li>
+            <li><img src="images/pago_seguro.png" alt="foto_pago"/></li>
+        </ul>
+		
+    </footer>
+	
+</body>
+
+</html>

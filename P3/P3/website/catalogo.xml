@@ -1,0 +1,607 @@
+<catalogo>
+
+    <pelicula>
+        <id>1</id>
+        <titulo>Fast and Furious 8</titulo>
+        <caratula>images/f_f8.jpg</caratula>
+        <genero>Acción</genero>
+        <director>David Yates</director>
+        <anio>2017</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>136 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Vin Diesel</nombre>
+            </actor>
+            <actor>
+                <nombre>Dwayne "The Rock" Johnson</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                La carrera ha comenzado. Dom Toretto (Vin Diesel) y su equipo volverán en esta ocasión con 
+                más ganas de guerra que nunca. No faltarán los excesos de velocidad y la adrenalina a raudales 
+                para un filme del que se espera que sea la entrega con más acción de esta saga callejera por excelencia. 
+        </descripcion>
+        <vendido>si</vendido>
+        <valorado>no</valorado>
+        <valoracion>4</valoracion>
+        <precio_blueray>13.99€</precio_blueray>
+        <precio_dvd>11.99€</precio_dvd>
+    </pelicula>
+
+    <pelicula>
+        <id>2</id>
+        <titulo>Animales fantásticos</titulo>        
+        <caratula>images/animales_fantasticos.jpg</caratula>
+        <genero>Acción</genero>
+        <director>David Yates</director>
+        <anio>2016</anio>
+        <pais>Reino Unido</pais>
+        <duracion>128 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Eddie Redmayne</nombre>
+            </actor>
+            <actor>
+                <nombre>Katherine Waterston</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                El magizoólogo Newt Scamander acaba de ser expulsado de Hogwarts debido a un incidente relacionado 
+                con una de sus criaturas mágicas. El joven mago decide entonces emprender un viaje por el mundo en 
+                busca de nuevas variedades de criaturas extraordinarias. 
+                Acompañado de una enigmática maleta repleta de los sorprendentes seres que ha coleccionado a lo largo 
+                de los años, llega a Nueva York. Allí se cruza por casualidad con Jacob Kowalski (Dan Floger), un                   panadero 
+                que acaba de volver de la guerra. 
+        </descripcion>
+        <vendido>si</vendido>
+        <valorado>no</valorado>
+        <valoracion>4</valoracion>
+        <precio_blueray>13.99€</precio_blueray>
+        <precio_dvd>11.99€</precio_dvd>
+    </pelicula>
+
+    <pelicula>
+        <id>3</id>
+        <titulo>Harry Potter</titulo>        
+        <caratula>images/harry_potter.jpg</caratula>
+        <genero>Acción</genero>
+        <director>Chris Columbus</director>
+        <anio>2001</anio>
+        <pais>Reino Unido</pais>
+        <duracion>152 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Daniel Radcliffe</nombre>
+            </actor>
+            <actor>
+                <nombre>Rupert Grint</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Harry Potter es un niño huérfano criado por su tío Vernon y su tía Petunia que lo odian. 
+                El día de su decimoprimer cumpleaños, Harry recibe la inesperada visita de un hombre,
+                Rubeus Hagrid. Este le revela que posee extraordinarios poderes. Lleno de alegría, el chico acepta ir a estudiar 
+                a Hogwarts, el famoso colegio de magia y hechicería. Por fin, tiene la oportunidad de hacer amigos. 
+                Odiado por Severus Snape, profesor de Pociones, y protegido por Albus Dumbledore, director del colegio, 
+                Harry intentará dilucidar el misterio de la piedra filosofal
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>si</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+
+    <pelicula>
+        <id>4</id>
+        <titulo>Avatar</titulo>        
+        <caratula>images/avatar.jpg</caratula>
+        <genero>Acción</genero>
+        <director>James Cameron</director>
+        <anio>2009</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>161 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Sam Worthington</nombre>
+            </actor>
+            <actor>
+                <nombre>Zoe Saldana</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Jake Sully es un antiguo marine que vive postrado en una silla de ruedas, pero cuya determinación 
+                y valentía se mantienen intactas. Ahora, tiene una misión entre manos: viajar a Pandora, un planeta 
+                del que los humanos extraen un mineral que puede acabar con la crisis energética de la Tierra.  
+                Sin embargo, este planeta posee una atmósfera extremadamente tóxica, por lo que se ha creado el 
+                programa Avatar, según el cual los humanos unen sus conciencias a un cuerpo biológico que, por 
+                control remoto, es capaz de sobrevivir al aire letal.
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+
+    <pelicula>
+        <id>5</id>
+        <titulo>Fuga de cerebros</titulo>        
+        <caratula>images/fuga_de_cerebros.jpg</caratula>
+        <genero>Comedia</genero>
+        <director>Fernando González Molina</director>
+        <anio>2009</anio>
+        <pais>España</pais>
+        <duracion>105 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Mario Casas</nombre>
+            </actor>
+            <actor>
+                <nombre>Amaia Salamanca</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Esta comedia española nos lleva a conocer la historia de amor entre Emilio, 
+                un joven tímido y a decir verdad bastante pésimo tanto en los estudios como en las relaciones 
+                amorosas, y Natalia (Amaia Salamanca) la chica más lista y sobre todo más guapa de su instituto. 
+                Emilio lleva toda la vida enamorado de Natalia, y justo cuando consigue reunir todo el valor del
+                que dispone y decide declararle su amor eterno, la chica le informa de que se va a estudiar Medicina 
+                a la Universidad de Oxford.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>si</valorado>
+        <precio_blueray>9.99€</precio_blueray>
+        <precio_dvd>7.99€</precio_dvd>
+    </pelicula>
+
+    <pelicula>
+        <id>6</id>
+        <titulo>Ted</titulo>        
+        <caratula>images/ted.jpg</caratula>
+        <genero>Comedia</genero>
+        <director>Seth MacFarlane</director>
+        <anio>2012</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>106 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Mark Wahlberg</nombre>
+            </actor>
+            <actor>
+                <nombre>Mila Kunis</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                La historia se centra en las aventuras de un hombre que ve cómo su osito de 
+                peluche de la infancia adquiere vida debido a un deseo que formuló cuando era
+                pequeño, convirtiéndose el peluche en un gandul deslenguado que alterará por 
+                completo su vida y pondrá en peligro su relación amorosa con su pareja, debido 
+                a su comportamiento totalmente salvaje y su conducta fuera de toda norma social.
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>7</id>
+        <titulo>Resacón 2, ahora en Tailandia</titulo>        
+        <caratula>images/resacon_2.jpg</caratula>
+        <genero>Comedia</genero>
+        <director>Todd Phillipse</director>
+        <anio>2011</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>102 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Zach Galifianakis</nombre>
+            </actor>
+            <actor>
+                <nombre>Bradley Cooper</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                En esta continuación de la comedia Resacón en Las Vegas, Phil (Bradley Cooper), 
+                Stu (Ed Helms), Alan (Zach Galifianakis) y Doug (Justin Bartha), viajan a la exótica 
+                Tailandia con motivo de la boda de Stu. Tras la locura de noche vivida en Las Vegas, 
+                Stu no quiere riesgos y planeó un evento tranquilo antes de la boda. Sin embargo las 
+                cosas no siempre salen según lo planeado. Lo que pasa en las vegas se queda en Las Vegas, 
+                pero lo que ocurre en Bangkok no puede siquiera ser imaginado.
+        </descripcion>
+        <valoracion>3</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>8</id>
+        <titulo>Deadpool</titulo>        
+        <caratula>images/deadpool.jpg</caratula>
+        <genero>Comedia</genero>
+        <director>Tim Miller</director>
+        <anio>2016</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>106 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Ryan Reynolds</nombre>
+            </actor>
+            <actor>
+                <nombre>Morena Baccarin</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un 
+                ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y 
+                que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando 
+                Wade entonces el alter ego de Deadpool. Armado con sus nuevas habilidades y un oscuro y 
+                retorcido sentido del humor, Deadpool intentará dar caza al hombre que casi destruye su vida.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>9</id>
+        <titulo>Cincuenta sombras</titulo>        
+        <caratula>images/cincuenta_sombras_mas_oscuras.jpg</caratula>
+        <genero>Romance</genero>
+        <director>James Foley</director>
+        <anio>2017</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>115 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Dakota Johnson</nombre>
+            </actor>
+            <actor>
+                <nombre>Jamie Dornan</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Cuando Christian Grey, que se siente herido, intenta convencer a Anastasia Steele de que vuelva 
+                a formar parte de su vida, ella le exige un nuevo acuerdo antes de aceptar. Pero cuando la pareja 
+                empieza a ser más confiada y a tener una cierta estabilidad, aparecen mujeres del pasado de 
+                Christian decididas a frenar en seco sus esperanzas de un futuro juntos... Secuela de "50 sombras 
+                de Grey", en la que Grey sigue explorando sus demonios interiores y la joven Anastasia confronta 
+                sus sentimientos y confusión sobre su relación con el atractivo millonario, un tipo misterioso 
+                lleno de secretos.
+        </descripcion>
+        <valoracion>2</valoracion>
+        <vendido>si</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>10</id>
+        <titulo>Titanic</titulo>        
+        <caratula>images/titanic.jpg</caratula>
+        <genero>Romance</genero>
+        <director>James Cameron</director>
+        <anio>1997</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>195 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Leonardo DiCaprio</nombre>
+            </actor>
+            <actor>
+                <nombre>Kate Winslet</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América 
+                en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose 
+                (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de 
+                conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso 
+                apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen 
+                todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima 
+                hacia un inmenso iceberg.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>si</valorado>
+        <precio_blueray>9.99€</precio_blueray>
+        <precio_dvd>7.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>11</id>
+        <titulo>El diario de Noa</titulo>        
+        <caratula>images/diario_de_noa.jpg</caratula>
+        <genero>Romance</genero>
+        <director>Nick Cassavetes</director>
+        <anio>2004</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>124 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Ryan Gosling</nombre>
+            </actor>
+            <actor>
+                <nombre>Rachel McAdams</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                En una residencia de ancianos, un hombre (James Garner) lee a una mujer (Gena Rowlands) una 
+                historia de amor escrita en su viejo cuaderno de notas. Es la historia de Noah Calhoun (Ryan Gosling) 
+                y Allie Nelson (Rachel McAdams), dos jóvenes adolescentes de Carolina del Norte que, a pesar de vivir
+                en dos ambientes sociales muy diferentes, se enamoraron profundamente y pasaron juntos un verano 
+                inolvidable, antes de ser separados, primero por sus padres, y más tarde por la guerra.
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>12</id>
+        <titulo>Todos los días de mi vida</titulo>        
+        <caratula>images/todos_los_dias_de_mi_vida.jpg</caratula>
+        <genero>Romance</genero>
+        <director>Michael Sucsy</director>
+        <anio>2012</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>104 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Rachel McAdams</nombre>
+            </actor>
+            <actor>
+                <nombre>Channing Tatum</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Un accidente de coche deja a Paige (Rachel McAdams) en coma. Cuando se despierta, ha perdido la 
+                memoria y no reconoce ni siquiera a su marido Leo (Channing Tatum), con el que llevaba poco tiempo 
+                casada. Leo tendrá entonces que volver a conquistar el corazón de su mujer.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>13</id>
+        <titulo>Buscando a Dory</titulo>        
+        <caratula>images/buscando_a_dory.jpg</caratula>
+        <genero>Infantiles</genero>
+        <director>Andrew Stanton</director>
+        <anio>2016</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>103 min</duracion>
+        <descripcion>
+                Un año después de los acontecimientos narrados en "Buscando a Nemo", Dory vive apaciblemente con 
+                Marlin y su hijo Nemo. Pero durante un viaje para ver cómo las mantarrayas migran de vuelta a casa, 
+                los problemas de memoria de Dory parecen desaparecer durante un segundo: recuerda que tiene una 
+                familia e inmediatamente decide emprender viaje para reencontrarse con sus padres, a los que perdió 
+                hace años.
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>si</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>14</id>
+        <titulo>Up</titulo>        
+        <caratula>images/up.jpg</caratula>
+        <genero>Infantiles</genero>
+        <director>Pete Docter</director>
+        <anio>2009</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>96 min</duracion>
+        <descripcion>
+                Carl Fredricksen es un viudo vendedor de globos de 78 años que, finalmente, consigue llevar a cabo 
+                el sueño de su vida: enganchar miles de globos a su casa y salir volando rumbo a América del Sur. 
+                Pero ya estando en el aire y sin posibilidad de retornar Carl descubre que viaja acompañado de
+                Russell, un explorador que tiene ocho años y un optimismo a prueba de bomba.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>15</id>
+        <titulo>Descubriendo a los Robinsons</titulo>        
+        <caratula>images/robinsons.jpg</caratula>
+        <genero>Infantiles</genero>
+        <director>Stephen J. Anderson</director>
+        <anio>2007</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>107 min</duracion>
+        <descripcion>
+                Cuando Lewis conoce a un misterioso chico que viene del futuro llamado Wilbur Robinson, ambos 
+                harán un viaje en el tiempo donde Lewis descubre el asombroso secreto de la familia Robinson.
+        </descripcion>
+        <valoracion>2</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>16</id>
+        <titulo>Monstruos University</titulo>        
+        <caratula>images/monstruos_university.jpg</caratula>
+        <genero>Infantiles</genero>
+        <director>Dan Scanlon</director>
+        <anio>2013</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>96 min</duracion>
+        <descripcion>
+                Mike Wazowski y James P. Sullivan son amigos inseparables, pero no fue siempre así. Cuando 
+                se conocieron en la Universidad, no se podían soportar, pero acabaron superando sus diferencias
+                y se convirtieron en los mejores amigos. Precuela de la exitosa "Monstruos, S.A.".
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>17</id>
+        <titulo>Insidious</titulo>        
+        <caratula>images/insidious.jpg</caratula>
+        <genero>Terror</genero>
+        <director>James Wan</director>
+        <anio>2010</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>102 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Rose Byrne</nombre>
+            </actor>
+            <actor>
+                <nombre>Patrick Wilson</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Josh (Patrick Wilson), su esposa Renai (Rose Byrne) y sus tres hijos acaban de mudarse a una 
+                vieja casa. Pero, tras un desgraciado accidente, uno de los niños entra en coma y, al mismo 
+                tiempo, empiezan a producirse en la casa extraños fenómenos que aterrorizan a la familia. 
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>si</valorado>
+        <precio_blueray>10.99€</precio_blueray>
+        <precio_dvd>8.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>18</id>
+        <titulo>Rec</titulo>        
+        <caratula>images/rec.jpg</caratula>
+        <genero>Terror</genero>
+        <director>Jaume Balagueró</director>
+        <anio>2007</anio>
+        <pais>España</pais>
+        <duracion>76 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Manuela Velasco</nombre>
+            </actor>
+            <actor>
+                <nombre>Ferrán Terraza</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Cada noche, Ángela (Manuela Velasco), una joven reportera de una televisión local, sigue con su 
+                cámara a un grupo profesional distinto. Esta noche le toca entrevistar a los bomberos y tiene la 
+                secreta esperanza de poder asistir en directo a un impactante incendio. Pero la noche transcurre 
+                tranquilamente. Y cuando, por fin, reciben la llamada de una anciana que se ha quedado encerrada 
+                en su casa, no le queda otro remedio que seguirlos durante la misión de rescate. En el edificio 
+                donde vive la anciana, los vecinos están muy asustados. La mujer, encerrada en su piso, lanza 
+                unos gritos desgarradores... Es sólo el comienzo de una larga pesadilla y de un dramático 
+                reportaje único en el mundo.
+        </descripcion>
+        <valoracion>2</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>9.99€</precio_blueray>
+        <precio_dvd>7.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>19</id>
+        <titulo>Saw</titulo>        
+        <caratula>images/saw.jpg</caratula>
+        <genero>Terror</genero>
+        <director>James Wan</director>
+        <anio>2005</anio>
+        <pais>Estados Unidos</pais>
+        <duracion>100 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Cary Elwes</nombre>
+            </actor>
+            <actor>
+                <nombre>Leigh Whannell</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Adam se despierta encadenado a un tubo oxidado dentro de una decrépita cámara subterránea. A su lado, 
+                hay otra persona encadenada, el Dr. Lawrence Gordon. Entre ellos hay un hombre muerto. Ninguno de los 
+                dos sabe por qué está allí, pero tienen un casette con instrucciones para que el Dr. Gordon mate a 
+                Adam en un plazo de ocho horas. Recordando una investigación de asesinato llevada a cabo por un 
+                detective llamado Tapp, Gordon descubre que él y Adam son victimas de un psicópata conocido como Jigsaw. 
+                Sólo disponen de unas horas para desenredar el complicado rompecabezas en el que están inmersos.
+        </descripcion>
+        <valoracion>5</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+    
+    <pelicula>
+        <id>20</id>
+        <titulo>El Orfanato</titulo>        
+        <caratula>images/el_orfanato.jpg</caratula>
+        <genero>Terror</genero>
+        <director>Juan Antonio Bayona</director>
+        <anio>2007</anio>
+        <pais>España</pais>
+        <duracion>100 min</duracion>
+        <reparto>
+            <actor>
+                <nombre>Belén Rueda</nombre>
+            </actor>
+            <actor>
+                <nombre>Fernando Cayo</nombre>
+            </actor>
+        </reparto>
+
+        <descripcion>
+                Laura se instala con su familia en el orfanato en el que creció de niña. Su propósito es abrir una 
+                residencia para niños discapacitados. El ambiente del viejo caserón despierta la imaginación de su 
+                hijo, que empieza a dejarse arrastrar por la fantasía. Los juegos del niño inquietan cada vez más a 
+                Laura, que empieza a sospechar que en la casa hay algo que amenaza su familia.
+        </descripcion>
+        <valoracion>4</valoracion>
+        <vendido>no</vendido>
+        <valorado>no</valorado>
+        <precio_blueray>11.99€</precio_blueray>
+        <precio_dvd>9.99€</precio_dvd>
+    </pelicula>
+
+</catalogo>

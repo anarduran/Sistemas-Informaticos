@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historial>
+  <pedido>
+    <num_pedido>114</num_pedido>
+    <fecha>31/10/17</fecha>
+    <hora>20:25</hora>
+    <producto>
+      <titulo>Buscando a Dory</titulo>
+      <formato>dvd</formato>
+      <precio>8.99€</precio>
+      <cantidad>1</cantidad>
+    </producto>
+    <total_compra>8.99</total_compra>
+  </pedido>
+</historial>

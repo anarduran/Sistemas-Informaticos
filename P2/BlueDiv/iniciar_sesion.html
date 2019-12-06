@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset = "utf-8" />
+    <title>Iniciar sesión - Bluediv</title>
+    <link rel='stylesheet' href="style.css" type="text/css" media="screen" />
+	
+</head>
+
+<body>
+
+    <header>
+	
+        <nav id="menu-superior">
+		
+            <ul>
+		        <li>
+					<div id=div-mediana>
+						<img src='images/Black_mediana.png' alt='foto_mediana'/>
+					</div>
+					
+					<div id=div-entrar>
+						<a href='iniciar_sesion.html' class='ele-menu'>Entrar</a> <br/><br/>
+						<a href='registrarse.html' class='ele-menu'>Registrarse</a>
+					</div>
+                </li>
+				
+                <li id=logo>
+                    <a href=index.php>
+			            <img src='images/LOGO.png' id=imgLogo alt='foto_logo'/>
+		            </a>
+                </li>
+				
+		        <li>
+                    <div id=div-user-carro>
+                    
+                        <div class='user-carro'>
+                            <div>
+                                <a href='carrito.php'><img src='images/carro.png' alt='foto_carro'/></a>
+                            </div>
+
+                            <div>
+                                <a href='carrito.php' class='ele-menu'>Tu compra</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class='user-carro2'>
+			                <div>
+				                <a href='iniciar_sesion.html'><img src='images/user.png' alt='foto_usuario'/></a>
+			                </div>
+
+                            <div>
+                                <a href='iniciar_sesion.html' class='ele-menu'>Tu cuenta</a>
+                            </div>
+                    	</div>
+                </li>
+            </ul>
+			
+        </nav>
+		
+    </header>
+
+    <div id="div-iniSesion">
+        <form method="post" action="iniciar_sesion.php">
+            <h2>INICIAR SESIÓN</h2>
+            <label>Nombre de usuario</label>
+            <input type="text" name="usuario" maxlength="10">
+            <label>Contraseña</label>
+            <input type="password" name="password" maxlength="50">
+            <br/>
+            <br/>
+            <input type="submit" name="submit" value="Entrar"/>
+        </form>
+        <br/>
+        <p id="NoUser">¿No eres usuario? Regístrate</p>
+        <button id="botRegistrarse" onclick="window.location.href='registrarse.html'">Registrarse</button>
+    </div>
+	
+	<footer>
+	
+        <ul>
+            <li>Envío seguro 3-5 días</li>
+            <li>|</li>
+            <li>Bluediv 2017</li>
+            <li>|</li>
+            <li><img src="images/pago_seguro.png" alt="foto_pago"/></li>
+        </ul>
+		
+    </footer>
+	
+</body>
+
+</html>
